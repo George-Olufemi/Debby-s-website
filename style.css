@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Sora;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #daad86;
+  align-content: center;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav ul li{
+padding-left: 10px;
+}
+
+nav ul li .active{
+  color: white;
+}
+
+a {
+  font-size: 14px;
+}
